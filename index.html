@@ -199,6 +199,23 @@
     font-size: 0.9rem;
   }
 
+  a.chip, .grade-path a, .usage-card a.book {
+    text-decoration: none;
+  }
+  a.chip:hover { background: var(--rose-soft); color: var(--cta-bg); }
+  .grade-path a {
+    color: var(--navy);
+    border-bottom: 1px dotted var(--navy);
+  }
+  .grade-path a:hover, .usage-card a.book:hover { color: var(--cta-bg); }
+  .usage-card a.book { display: block; }
+
+  .affiliate-note {
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+    margin-top: 1rem;
+  }
+
   .chip-caption {
     font-size: 0.85rem;
     color: var(--ink-faint);
@@ -568,6 +585,7 @@
       <p class="lede">많이 물어보셨던 소윤이 수학 루틴, 정리해서 공유드려요 😊</p>
       <p>먼저 꼭 말씀드리고 싶은 건, 이 루틴 그대로 하실 필요는 없다는 거예요. 아이마다 속도도 다르고 이해하는 방식도 다르기 때문에, 우리 아이에게 맞게 조절해서 보시면 좋겠어요.</p>
     </div>
+    <p class="affiliate-note">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
   </div>
 
   <section>
@@ -589,10 +607,10 @@
 
     <p class="chip-caption">우리 집이 써보고 좋았던 기본 개념 문제집</p>
     <div class="chip-row">
-      <span class="chip">만점왕</span>
+      <a class="chip" href="https://link.coupang.com/a/hLihq94NgG" target="_blank" rel="noopener sponsored">만점왕</a>
       <span class="chip">큐브수학 개념</span>
       <span class="chip">디딤돌 기본</span>
-      <span class="chip">우공비</span>
+      <a class="chip" href="https://link.coupang.com/a/hLilb0cY7E" target="_blank" rel="noopener sponsored">우공비</a>
     </div>
   </section>
 
@@ -605,19 +623,19 @@
     <div class="timeline">
       <div class="grade-row">
         <div class="grade-tag">초3</div>
-        <div class="grade-path">우공비, 디딤돌 기본 <span class="arrow">➜</span> 쎈 <span class="arrow">➜</span> 큐브수학 실력</div>
+        <div class="grade-path"><a href="https://link.coupang.com/a/hLilb0cY7E" target="_blank" rel="noopener sponsored">우공비</a>, 디딤돌 기본 <span class="arrow">➜</span> <a href="https://link.coupang.com/a/hLifBvM7mS" target="_blank" rel="noopener sponsored">쎈</a> <span class="arrow">➜</span> 큐브수학 실력</div>
       </div>
       <div class="grade-row">
         <div class="grade-tag">초4</div>
-        <div class="grade-path">디딤돌 기응 <span class="arrow">➜</span> 쎈 <span class="arrow">➜</span> 최상위S</div>
+        <div class="grade-path"><a href="https://link.coupang.com/a/hLimPsreVw" target="_blank" rel="noopener sponsored">디딤돌 기응</a> <span class="arrow">➜</span> <a href="https://link.coupang.com/a/hLifBvM7mS" target="_blank" rel="noopener sponsored">쎈</a> <span class="arrow">➜</span> 최상위S</div>
       </div>
       <div class="grade-row">
         <div class="grade-tag">초5</div>
-        <div class="grade-path">디딤돌 기응 <span class="arrow">➜</span> 쎈 <span class="arrow">➜</span> 문해길 + 최상위</div>
+        <div class="grade-path"><a href="https://link.coupang.com/a/hLimPsreVw" target="_blank" rel="noopener sponsored">디딤돌 기응</a> <span class="arrow">➜</span> <a href="https://link.coupang.com/a/hLifBvM7mS" target="_blank" rel="noopener sponsored">쎈</a> <span class="arrow">➜</span> <a href="https://link.coupang.com/a/hLipiHlOCG" target="_blank" rel="noopener sponsored">문해길</a> + <a href="https://link.coupang.com/a/hLin57ECpo" target="_blank" rel="noopener sponsored">최상위</a></div>
       </div>
       <div class="grade-row">
         <div class="grade-tag">초6</div>
-        <div class="grade-path">디딤돌 (개념 복습) <span class="arrow">➜</span> 최상위</div>
+        <div class="grade-path">디딤돌 (개념 복습) <span class="arrow">➜</span> <a href="https://link.coupang.com/a/hLin57ECpo" target="_blank" rel="noopener sponsored">최상위</a></div>
       </div>
     </div>
 
@@ -659,11 +677,11 @@
 
     <div class="usage-grid">
       <div class="usage-card">
-        <div class="book">쎈</div>
+        <a class="book" href="https://link.coupang.com/a/hLifBvM7mS" target="_blank" rel="noopener sponsored">쎈</a>
         <div class="detail">B, C 유형 위주로 풀이</div>
       </div>
       <div class="usage-card">
-        <div class="book">최상위</div>
+        <a class="book" href="https://link.coupang.com/a/hLin57ECpo" target="_blank" rel="noopener sponsored">최상위</a>
         <div class="detail">기본 문제는 제외하고 풀이</div>
       </div>
     </div>
@@ -690,9 +708,10 @@
         <div class="track-flow">매일 조금씩 꾸준히</div>
         <div class="track-desc">교과보다 앞서갈 수 있도록 따로 진도를 뺐어요</div>
         <div class="chip-row" style="margin-top:1rem;">
-          <span class="chip">기탄수학</span>
+          <a class="chip" href="https://link.coupang.com/a/hLirfyZjwa" target="_blank" rel="noopener sponsored">기탄수학</a>
           <span class="chip">구몬수학 (학습지)</span>
           <span class="chip">일프로연산</span>
+          <a class="chip" href="https://link.coupang.com/a/hLisZVdp48" target="_blank" rel="noopener sponsored">기적의 계산법</a>
         </div>
       </div>
     </div>
@@ -853,7 +872,10 @@
     </div>
   </section>
 
-  <footer>소시네 · 우리 아이 속도에 맞춰 천천히</footer>
+  <footer>
+    <p class="affiliate-note" style="margin:0 0 0.6rem;">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+    소시네 · 우리 아이 속도에 맞춰 천천히
+  </footer>
 
 </div>
 </body>
